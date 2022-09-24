@@ -7,7 +7,7 @@
 
 
 ### Features :
-- An endpoint that accepts phone, name and role parameters and stores the registry only if the username does not exist. Create different generated passwords (4 chars) for each registry, displayed in the response
+- An endpoint that accepts username, phone, name and role parameters and stores the registry to database only if the username does not exist. Create different generated passwords (4 chars) for each registry, displayed in the response
 - Endpoint that accepts phone and password parameters and then returns JWT with the contents of private claims name, phone, role and timestamp from the registry
 - Endpoint that receives JWT and displays contents of private claims if JWT is valid
 
